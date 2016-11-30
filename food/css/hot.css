@@ -1,0 +1,4 @@
+.nav-bar{height:58px; line-height:normal;}
+.nav-bar ul{ height:28px;  padding-top:30px;}
+.nav-bar ul li a{padding:0 18px;}
+.line{background:url(../images/line.png) repeat-x; height:3px;}
