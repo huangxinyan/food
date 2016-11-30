@@ -19,7 +19,6 @@ $(function(){
         $dot.mouseover(function(e){
             var $tar = $(e.target);
             $index = $tar.index();
-            //console.log($index);
             play();
         });
         var autoPlay = function(){

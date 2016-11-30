@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
     <link rel="stylesheet" href="../css/same.css"/>
     <link rel="stylesheet" href="../css/hot.css"/>
+    <script src="../js/jquery-1.12.4.js"></script>
 </head>
 <body>
     <header>
@@ -52,171 +53,415 @@
     </div>
     <div class="line"></div>
     <div class="goods-body">
-
-    </div>
-    <div class="bannerImg">
-        <div class="swiperWrapper">
-             <div class="slides-container">
-                 <div class="slide-item">
-                <a href="###" target="_blank"><img src="../images/hotBanner.png"></a>
+        <div class="container hotImg"></div>
+        <div class="bannerImg">
+            <div class="swiperWrapper">
+                <div class="slides-container">
+                    <div class="slide-item">
+                        <a href="###" target="_blank"><img src="../images/hotBanner.png"></a>
+                    </div>
+                    <div class="slide-item">
+                        <a href="###" target="_blank"><img src="../images/banner.png"></a>
+                    </div>
+                    <div class="slide-item">
+                        <a href="###" target="_blank"><img src="../images/banner2.png"></a>
+                    </div>
+                </div>
+                <div class="dot">
+                    <span class="active">1</span>
+                    <span>2</span>
+                    <span>3</span>
+                </div>
             </div>
-                 <div class="slide-item">
-                <a href="###" target="_blank"><img src="../images/banner.png"></a>
+        </div>
+        <div class="container allGoods">
+            <div class="tab hotBuy">
+                <div class="title">抢购中 <i>先下单先得哦</i></div>
+                <div class="clothes">
+                    <dl>
+                        <dt><a href="###"><img src="../images/clothes.png"/></a></dt>
+                        <dd class="clothName"><a href="###">茵曼森女风衬衣</a></dd>
+                        <dd class="buy">
+                            <a href="###">
+                                    <span>
+                                        <i><sub>￥</sub>99.<sub>90</sub></i>
+                                        <del>￥<em>199.8</em></del>
+                                    </span>
+                                <span class="floatR">立即抢购</span>
+                            </a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="###"><img src="../images/clothes.png"/></a></dt>
+                        <dd class="clothName"><a href="###">茵曼森女风衬衣</a></dd>
+                        <dd class="buy">
+                            <a href="###">
+                                    <span>
+                                        <i><sub>￥</sub>99.<sub>90</sub></i>
+                                        <del>￥<em>199.8</em></del>
+                                    </span>
+                                <span class="floatR">立即抢购</span>
+                            </a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="###"><img src="../images/clothes.png"/></a></dt>
+                        <dd class="clothName"><a href="###">茵曼森女风衬衣</a></dd>
+                        <dd class="buy">
+                            <a href="###">
+                                    <span>
+                                        <i><sub>￥</sub>99.<sub>90</sub></i>
+                                        <del>￥<em>199.8</em></del>
+                                    </span>
+                                <span class="floatR">立即抢购</span>
+                            </a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="###"><img src="../images/clothes.png"/></a></dt>
+                        <dd class="clothName"><a href="###">茵曼森女风衬衣</a></dd>
+                        <dd class="buy">
+                            <a href="###">
+                                    <span>
+                                        <i><sub>￥</sub>99.<sub>90</sub></i>
+                                        <del>￥<em>199.8</em></del>
+                                    </span>
+                                <span class="floatR">立即抢购</span>
+                            </a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="###"><img src="../images/clothes.png"/></a></dt>
+                        <dd class="clothName"><a href="###">茵曼森女风衬衣</a></dd>
+                        <dd class="buy">
+                            <a href="###">
+                                <span>
+                                    <i><sub>￥</sub>99.<sub>90</sub></i>
+                                    <del>￥<em>199.8</em></del>
+                                </span>
+                                <span class="floatR">立即抢购</span>
+                            </a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="###"><img src="../images/clothes.png"/></a></dt>
+                        <dd class="clothName"><a href="###">茵曼森女风衬衣</a></dd>
+                        <dd class="buy">
+                            <a href="###">
+                                <span>
+                                    <i><sub>￥</sub>99.<sub>90</sub></i>
+                                    <del>￥<em>199.8</em></del>
+                                </span>
+                                <span class="floatR">立即抢购</span>
+                            </a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="###"><img src="../images/clothes.png"/></a></dt>
+                        <dd class="clothName"><a href="###">茵曼森女风衬衣</a></dd>
+                        <dd class="buy">
+                            <a href="###">
+                                <span>
+                                    <i><sub>￥</sub>99.<sub>90</sub></i>
+                                    <del>￥<em>199.8</em></del>
+                                </span>
+                                <span class="floatR">立即抢购</span>
+                            </a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="###"><img src="../images/clothes.png"/></a></dt>
+                        <dd class="clothName"><a href="###">茵曼森女风衬衣</a></dd>
+                        <dd class="buy">
+                            <a href="###">
+                                <span>
+                                    <i><sub>￥</sub>99.<sub>90</sub></i>
+                                    <del>￥<em>199.8</em></del>
+                                </span>
+                                <span class="floatR">立即抢购</span>
+                            </a>
+                        </dd>
+                    </dl>
+                    <div class="clothes-item tools">
+                        <div class="myTool tools-left">
+                             <div class="discount">
+                                 <p style="color:#666; font-size:16px;">清洁工具</p>
+                                 <p style="color:#613908; font-size:22px; margin-top:6px;">爆款低至9.9元</p>
+                                 <a href="###">立即抢购</a>
+                             </div>
+                             <div class="toolShow">
+                                 <a href="###">
+                                     <img src="../images/tool.png">
+                                     <p>
+                                         ￥ <i>119</i>
+                                         <del>￥<em>238</em></del>
+                                     </p>
+                                 </a>
+                                 <a href="###">
+                                     <img src="../images/tool.png">
+                                     <p>
+                                         ￥ <i>119</i>
+                                         <del>￥<em>238</em></del>
+                                     </p>
+                                 </a>
+                                 <a href="###">
+                                     <img src="../images/tool.png">
+                                     <p>
+                                         ￥ <i>119</i>
+                                         <del>￥<em>238</em></del>
+                                     </p>
+                                 </a>
+                             </div>
+                        </div>
+                        <div class="myTool tools-right">
+                            <div class="discount">
+                                <p style="color:#666; font-size:16px;">清洁工具</p>
+                                <p style="color:#613908; font-size:22px; margin-top:6px;">爆款低至9.9元</p>
+                                <a href="###">立即抢购</a>
+                            </div>
+                            <div class="toolShow">
+                                <a href="###">
+                                    <img src="../images/tool.png">
+                                    <p>
+                                        ￥ <i>119</i>
+                                        <del>￥<em>238</em></del>
+                                    </p>
+                                </a>
+                                <a href="###">
+                                    <img src="../images/tool.png">
+                                    <p>
+                                        ￥ <i>119</i>
+                                        <del>￥<em>238</em></del>
+                                    </p>
+                                </a>
+                                <a href="###">
+                                    <img src="../images/tool.png">
+                                    <p>
+                                        ￥ <i>119</i>
+                                        <del>￥<em>238</em></del>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <dl>
+                        <dt><a href="###"><img src="../images/clothes.png"/></a></dt>
+                        <dd class="clothName"><a href="###">茵曼森女风衬衣</a></dd>
+                        <dd class="buy">
+                            <a href="###">
+                                <span>
+                                    <i><sub>￥</sub>99.<sub>90</sub></i>
+                                    <del>￥<em>199.8</em></del>
+                                </span>
+                                <span class="floatR">立即抢购</span>
+                            </a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="###"><img src="../images/clothes.png"/></a></dt>
+                        <dd class="clothName"><a href="###">茵曼森女风衬衣</a></dd>
+                        <dd class="buy">
+                            <a href="###">
+                                <span>
+                                    <i><sub>￥</sub>99.<sub>90</sub></i>
+                                    <del>￥<em>199.8</em></del>
+                                </span>
+                                <span class="floatR">立即抢购</span>
+                            </a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="###"><img src="../images/clothes.png"/></a></dt>
+                        <dd class="clothName"><a href="###">茵曼森女风衬衣</a></dd>
+                        <dd class="buy">
+                            <a href="###">
+                                <span>
+                                    <i><sub>￥</sub>99.<sub>90</sub></i>
+                                    <del>￥<em>199.8</em></del>
+                                </span>
+                                <span class="floatR">立即抢购</span>
+                            </a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="###"><img src="../images/clothes.png"/></a></dt>
+                        <dd class="clothName"><a href="###">茵曼森女风衬衣</a></dd>
+                        <dd class="buy">
+                            <a href="###">
+                                <span>
+                                    <i><sub>￥</sub>99.<sub>90</sub></i>
+                                    <del>￥<em>199.8</em></del>
+                                </span>
+                                <span class="floatR">立即抢购</span>
+                            </a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="###"><img src="../images/clothes.png"/></a></dt>
+                        <dd class="clothName"><a href="###">茵曼森女风衬衣</a></dd>
+                        <dd class="buy">
+                            <a href="###">
+                                <span>
+                                    <i><sub>￥</sub>99.<sub>90</sub></i>
+                                    <del>￥<em>199.8</em></del>
+                                </span>
+                                <span class="floatR">立即抢购</span>
+                            </a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="###"><img src="../images/clothes.png"/></a></dt>
+                        <dd class="clothName"><a href="###">茵曼森女风衬衣</a></dd>
+                        <dd class="buy">
+                            <a href="###">
+                                <span>
+                                    <i><sub>￥</sub>99.<sub>90</sub></i>
+                                    <del>￥<em>199.8</em></del>
+                                </span>
+                                <span class="floatR">立即抢购</span>
+                            </a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="###"><img src="../images/clothes.png"/></a></dt>
+                        <dd class="clothName"><a href="###">茵曼森女风衬衣</a></dd>
+                        <dd class="buy">
+                            <a href="###">
+                                <span>
+                                    <i><sub>￥</sub>99.<sub>90</sub></i>
+                                    <del>￥<em>199.8</em></del>
+                                </span>
+                                <span class="floatR">立即抢购</span>
+                            </a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="###"><img src="../images/clothes.png"/></a></dt>
+                        <dd class="clothName"><a href="###">茵曼森女风衬衣</a></dd>
+                        <dd class="buy">
+                            <a href="###">
+                                <span>
+                                    <i><sub>￥</sub>99.<sub>90</sub></i>
+                                    <del>￥<em>199.8</em></del>
+                                </span>
+                                <span class="floatR">立即抢购</span>
+                            </a>
+                        </dd>
+                    </dl>
+                </div>
             </div>
-                 <div class="slide-item">
-                <a href="###" target="_blank"><img src="../images/banner2.png"></a>
+            <div class="tab more">
+                <div class="title">更多好货</div>
+                <div class="clothes">
+                    <dl>
+                        <dt><a href="###"><img src="../images/clothes.png"/></a></dt>
+                        <dd class="clothName"><a href="###">茵曼森女风衬衣</a></dd>
+                        <dd class="buy">
+                            <a href="###">
+                                <span>
+                                    <i><sub>￥</sub>99.<sub>90</sub></i>
+                                    <del>￥<em>199.8</em></del>
+                                </span>
+                                <span class="floatR">立即抢购</span>
+                            </a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="###"><img src="../images/clothes.png"/></a></dt>
+                        <dd class="clothName"><a href="###">茵曼森女风衬衣</a></dd>
+                        <dd class="buy">
+                            <a href="###">
+                                <span>
+                                    <i><sub>￥</sub>99.<sub>90</sub></i>
+                                    <del>￥<em>199.8</em></del>
+                                </span>
+                                <span class="floatR">立即抢购</span>
+                            </a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="###"><img src="../images/clothes.png"/></a></dt>
+                        <dd class="clothName"><a href="###">茵曼森女风衬衣</a></dd>
+                        <dd class="buy">
+                            <a href="###">
+                                <span>
+                                    <i><sub>￥</sub>99.<sub>90</sub></i>
+                                    <del>￥<em>199.8</em></del>
+                                </span>
+                                <span class="floatR">立即抢购</span>
+                            </a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="###"><img src="../images/clothes.png"/></a></dt>
+                        <dd class="clothName"><a href="###">茵曼森女风衬衣</a></dd>
+                        <dd class="buy">
+                            <a href="###">
+                                <span>
+                                    <i><sub>￥</sub>99.<sub>90</sub></i>
+                                    <del>￥<em>199.8</em></del>
+                                </span>
+                                <span class="floatR">立即抢购</span>
+                            </a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="###"><img src="../images/clothes.png"/></a></dt>
+                        <dd class="clothName"><a href="###">茵曼森女风衬衣</a></dd>
+                        <dd class="buy">
+                            <a href="###">
+                                <span>
+                                    <i><sub>￥</sub>99.<sub>90</sub></i>
+                                    <del>￥<em>199.8</em></del>
+                                </span>
+                                <span class="floatR">立即抢购</span>
+                            </a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="###"><img src="../images/clothes.png"/></a></dt>
+                        <dd class="clothName"><a href="###">茵曼森女风衬衣</a></dd>
+                        <dd class="buy">
+                            <a href="###">
+                                <span>
+                                    <i><sub>￥</sub>99.<sub>90</sub></i>
+                                    <del>￥<em>199.8</em></del>
+                                </span>
+                                <span class="floatR">立即抢购</span>
+                            </a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="###"><img src="../images/clothes.png"/></a></dt>
+                        <dd class="clothName"><a href="###">茵曼森女风衬衣</a></dd>
+                        <dd class="buy">
+                            <a href="###">
+                                <span>
+                                    <i><sub>￥</sub>99.<sub>90</sub></i>
+                                    <del>￥<em>199.8</em></del>
+                                </span>
+                                <span class="floatR">立即抢购</span>
+                            </a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="###"><img src="../images/clothes.png"/></a></dt>
+                        <dd class="clothName"><a href="###">茵曼森女风衬衣</a></dd>
+                        <dd class="buy">
+                            <a href="###">
+                                <span>
+                                    <i><sub>￥</sub>99.<sub>90</sub></i>
+                                    <del>￥<em>199.8</em></del>
+                                </span>
+                                <span class="floatR">立即抢购</span>
+                            </a>
+                        </dd>
+                    </dl>
+                </div>
             </div>
-            </div>
-            <div class="dot">
-                <span class="active">1</span>
-                <span>2</span>
-                <span>3</span>
-           </div>
         </div>
     </div>
-    <div class="container special-brand">
-    <div class="title">品牌专场</div>
-    <div class="brand-content">
-        <div class="brand-item">
-            <a href="###" target="_blank">
-                <img src="../images/goods1.png" title="" alt=""/>
-            </a>
-        </div>
-        <div class="brand-item">
-            <a href="###" target="_blank">
-                <img src="../images/goods2.png" title="" alt=""/>
-            </a>
-        </div>
-        <div class="brand-item" >
-            <a href="###" target="_blank">
-                <img src="../images/goods1.png" title="" alt=""/>
-            </a>
-        </div>
-        <div class="brand-item">
-            <a href="###" target="_blank">
-                <img src="../images/goods2.png" title="" alt=""/>
-            </a>
-        </div>
-        <div class="brand-item">
-            <a href="###" target="_blank">
-                <img src="../images/goods1.png" title="" alt=""/>
-            </a>
-        </div>
-        <div class="brand-item">
-            <a href="###" target="_blank">
-                <img src="../images/goods2.png" title="" alt=""/>
-            </a>
-        </div>
-    </div>
-    <ul class="smallShow">
-        <li>
-            <a href="###"  target="_blank" class="link0"></a>
-        </li>
-        <li>
-            <a href="###" target="_blank" class="link1"></a>
-        </li>
-        <li>
-            <a href="###" target="_blank" class="link2"></a>
-        </li>
-        <li>
-            <a href="###" target="_blank" class="link3"></a>
-        </li>
-    </ul>
-</div>
-    <div class="container newGoods">
-    <div class="title">今日上新</div>
-    <div class="goods-content">
-        <dl class="goods-list">
-            <dt>
-                <a href="###">
-                    <img src="../images/Ngoods.png"/>
-                </a>
-            </dt>
-            <dd>
-                <a href="###">
-                    <div class="brand">
-                        Korea
-                        <p>韩国品牌</p>
-                    </div>
-                    <div class="detail">
-                        <h3>雪花秀玉容撕拉面膜</h3>
-                        <p style="line-height:2; font-size:16px; color:#333;">皮肤暗沉不够白，都是脏污堆满脸！韩国太平洋旗下品牌，雪花秀Sulwhasoo玉容撕拉型面膜150ml,c传统中草药成分：玉竹粉“撕”</p>
-                        <p style="margin-top:24px; color:#f72d4a">￥<i>198</i></p>
-                        <p style="margin-top:18px; color:#999"><em style="color:#333">558</em>人已购买</p>
-                        <a href="###" target="_blank"><span>查看<br/>详情</span></a>
-                    </div>
-                </a>
-            </dd>
-        </dl>
-        <dl class="goods-list">
-            <dt>
-                <a href="###">
-                    <img src="../images/Ngoods.png"/>
-                </a>
-            </dt>
-            <dd>
-                <a href="###">
-                    <div class="brand">
-                        Korea
-                        <p>韩国品牌</p>
-                    </div>
-                    <div class="detail">
-                        <h3>雪花秀玉容撕拉面膜</h3>
-                        <p style="line-height:2; font-size:16px; color:#333;">皮肤暗沉不够白，都是脏污堆满脸！韩国太平洋旗下品牌，雪花秀Sulwhasoo玉容撕拉型面膜150ml,c传统中草药成分：玉竹粉“撕”</p>
-                        <p style="margin-top:24px; color:#f72d4a">￥<i>198</i></p>
-                        <p style="margin-top:18px; color:#999"><em style="color:#333">558</em>人已购买</p>
-                        <a href="###" target="_blank"><span>查看<br/>详情</span></a>
-                    </div>
-                </a>
-            </dd>
-        </dl>
-        <dl class="goods-list">
-            <dt>
-                <a href="###">
-                    <img src="../images/Ngoods.png"/>
-                </a>
-            </dt>
-            <dd>
-                <a href="###">
-                    <div class="brand">
-                        Korea
-                        <p>韩国品牌</p>
-                    </div>
-                    <div class="detail">
-                        <h3>雪花秀玉容撕拉面膜</h3>
-                        <p style="line-height:2; font-size:16px; color:#333;">皮肤暗沉不够白，都是脏污堆满脸！韩国太平洋旗下品牌，雪花秀Sulwhasoo玉容撕拉型面膜150ml,c传统中草药成分：玉竹粉“撕”</p>
-                        <p style="margin-top:24px; color:#f72d4a">￥<i>198</i></p>
-                        <p style="margin-top:18px; color:#999"><em style="color:#333">558</em>人已购买</p>
-                        <a href="###" target="_blank"><span>查看<br/>详情</span></a>
-                    </div>
-                </a>
-            </dd>
-        </dl>
-        <dl class="goods-list">
-            <dt>
-                <a href="###">
-                    <img src="../images/Ngoods.png"/>
-                </a>
-            </dt>
-            <dd>
-                <a href="###">
-                    <div class="brand">
-                        Korea
-                        <p>韩国品牌</p>
-                    </div>
-                    <div class="detail">
-                        <h3>雪花秀玉容撕拉面膜</h3>
-                        <p style="line-height:2; font-size:16px; color:#333;">皮肤暗沉不够白，都是脏污堆满脸！韩国太平洋旗下品牌，雪花秀Sulwhasoo玉容撕拉型面膜150ml,c传统中草药成分：玉竹粉“撕”</p>
-                        <p style="margin-top:24px; color:#f72d4a">￥<i>198</i></p>
-                        <p style="margin-top:18px; color:#999"><em style="color:#333">558</em>人已购买</p>
-                        <a href="###" target="_blank"><span>查看<br/>详情</span></a>
-                    </div>
-                </a>
-            </dd>
-        </dl>
-    </div>
-</div>
-    <script src="../js/jquery-1.12.4.js"></script>
     <script src="../js/product.js"></script>
+    <script src="../js/hot.js"></script>
 </body>
 </html>

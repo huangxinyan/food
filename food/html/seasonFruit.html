@@ -13,7 +13,34 @@
     <script src="../js/jquery.lazyload.min.js"></script>
 </head>
 <body>
-    <header>
+    <div class="pub-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2">
+                <select>
+                    <option>西安</option>
+                    <option>上海</option>
+                    <option>深圳</option>
+                    <option>北京</option>
+                    <option>恩施</option>
+                    <option>鄂尔多斯</option>
+                </select>
+                <a href="http://120.77.61.111:8989/ec-mall/member/toWeiWoHui.do">
+                    <span>接口连调</span>
+                </a>
+            </div>
+            <div class="col-sm-7 col-sm-offset-3 right-href">
+                <a href="http://120.77.61.111:8989/ec-mall/login.do">请登录</a>
+                <a href="http://120.77.61.111:8989/ec-mall/register.do">免费注册</a>
+                <a href="javascript:void(0)" class="myWallet" id="myWallet" data-toggle="modal" data-target="#myModlLoginFra">我的钱包</a>
+                <a href="http://120.77.61.111:8989/ec-mall/seller/register.do">商家入驻</a>
+                <a href="http://120.77.61.111:8989/ec-mall/member/center.do">我的订单</a>
+                <a href="http://120.77.61.111:8989/ec-mall/member/center.do">我的关注</a>
+                <a href="javascript:void(0) " onclick="javascript:window.open('http://chat56.live800.com/live800/chatClient/chatbox.jsp?companyID=751027&configID=98651&jid=1307362398','','width=940,height=690')" class="last">联系客服</a>
+            </div>
+        </div>
+    </div>
+</div>
     <div class="container headerLogo">
         <h2 id="mallLogo" class="mall-logo">
             <a href="product.html" target="_blank" title="唯沃惠--新鲜农产品">
@@ -42,7 +69,6 @@
             </div>
         </div>
     </div>
-</header>
     <div class="container nav-bar" id="navBar">
         <ul>
             <li><a href="product.html">首页</a></li>
